@@ -1,12 +1,49 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdHoc 安装 App</title>
+    <title>App Installation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <h1>点击安装 App</h1>
-    <p><a href="itms-services://?action=download-manifest&url=https://yourserver.com/app.plist">安装应用</a></p>
+
+    <h1>Install Our App</h1>
+    <p>Click the button below to install the app on your iOS device:</p>
+    
+    <!-- Add your installation URL here -->
+    <button class="button" onclick="installApp()">Install App</button>
+
+    <script>
+        function installApp() {
+            // Replace the URL with your .ipa link
+            const ipaLink = "https://your-server.com/path/to/app.ipa";
+            const provisionLink = "https://your-server.com/path/to/embedded.mobileprovision";
+
+            const installUrl = `itms-services://?action=download-manifest&url=${encodeURIComponent(ipaLink)}`;
+            
+            // Example: Open the URL to trigger the installation process
+            window.location.href = installUrl;
+        }
+    </script>
+
 </body>
 </html>
