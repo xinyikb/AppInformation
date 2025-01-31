@@ -8,11 +8,11 @@
                 <array>
                     <dict>
                         <key>url</key>
-                        <string>KKPlayer.ipa</string>
+                        <string>https://xinyikb.github.io/AppInformation/KKPlayer.ipa</string>
                     </dict>
                     <dict>
                         <key>url</key>
-                        <string>embedded.mobileprovision</string>
+                        <string>https://xinyikb.github.io/AppInformation/embedded.mobileprovision</string>
                     </dict>
                 </array>
                 <key>metadata</key>
