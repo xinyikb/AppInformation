@@ -37,7 +37,7 @@
             // Replace the URL with your .ipa link
             const ipaLink = "https://raw.githubusercontent.com/xinyikb/AppInformation/refs/heads/main/manifest.plist";
 
-            const installUrl = `itms-services://?action=download-manifest&url=${encodeURIComponent(ipaLink)}`;
+            const installUrl = `itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/xinyikb/AppInformation/refs/heads/main/manifest.plist`;
             
             // Example: Open the URL to trigger the installation process
             window.location.href = installUrl;
