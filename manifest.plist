@@ -8,23 +8,23 @@
                 <array>
                     <dict>
                         <key>url</key>
-                        <string>https://your-server.com/path/to/app.ipa</string>
+                        <string>KKPlayer.ipa</string>
                     </dict>
                     <dict>
                         <key>url</key>
-                        <string>https://your-server.com/path/to/embedded.mobileprovision</string>
+                        <string>embedded.mobileprovision</string>
                     </dict>
                 </array>
                 <key>metadata</key>
                 <dict>
                     <key>bundle-identifier</key>
-                    <string>com.yourcompany.appname</string>
+                    <string>top.kktt.KKPlayer</string>
                     <key>bundle-version</key>
                     <string>1.0</string>
                     <key>kind</key>
                     <string>software</string>
                     <key>title</key>
-                    <string>Your App Name</string>
+                    <string>KKPlayer</string>
                 </dict>
             </dict>
         </array>
